@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>Rock, Paper, Scissors</title>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="styles/styles.css" rel="stylesheet">
+</head>
+
+<body>
+    <div id="gameContainer">
+        <div id="topDiv">
+            <header>Rock Paper Scissors</header>
+            <div id="gameScore">
+                <div id="playerScore">0<span id="playerLabel">Player</span></div>
+                <h2 id="scoreH2">Score</h2>
+                <div id="computerScore">0<span id="computerLabel">Computer</span></div>
+            </div>
+        </div>
+        <div id="mainDiv">
+            <h2 id="weaponH2">Choose your weapon</h2>
+            <div id="weaponSelection">
+                <div class="weaponButton" id="rock"><img class="weaponImg" src="images/Rock Icon.png"></div>
+                <div class="weaponButton" id="paper"><img class="weaponImg" src="images/Paper Icon.png"></div>
+                <div class="weaponButton" id="scissors"><img class="weaponImg" src="images/Scissors Icon.png"></div>
+            </div>
+        </div>
+        <div id="bottomDiv">
+            <h2 id="roundH2">Round</h2>
+            <div id="roundSelection">
+                <div id="playerSelection"><img class="roundImg" src="images/480px-Question_mark_white_icon.svg.png">
+                </div>
+                <div id="roundResult"></div>
+                <div id="computerSelection"><img class="roundImg" src="images/480px-Question_mark_white_icon.svg.png">
+                </div>
+            </div>
+        </div>
+        
+    </div>
+
+    <div id="resultsContainer">
+        <div id="gameResultDiv">
+            <header id="gameResultH2">You Won!</header>
+            <div id="playAgain"><button id="playAgainBtn">Play Again</button></div>
+        </div>
+        <div id="gameSummaryDiv">
+            <h2 id="summaryH2">Game Summary</h2>
+            <div id="roundsSummary">
+                <div id="summaryTitles">
+                    <div class="titlesSummary">You</div>
+                    <div class="titlesSummary" id="roundTitle">Round</div>
+                    <div class="titlesSummary">Computer</div>
+                </div>
+                <div id="summaryData"></div>
+            </div>
+
+        </div>
+        <div class="imgAttribution2"><a href="https://www.freepik.com/free-photos-vectors/business">Business vector
+                created by rawpixel.com - www.freepik.com</a></div>
+    </div>
+
+    <script src="js/rps.js" defer></script>
+</body>
+
+
+
+
+
+
+
+
+
+
+</html>
